@@ -1,4 +1,14 @@
-// let buttonRef = document.querySelector("#clickMe");
+let buttonRef = document.querySelector("#clickMe");
+
+function addNewButtonandPara() {
+	document.querySelector("");
+	let somebutton = document.createElement("button");
+	document.body.appendChild(somebutton);
+	somebutton.textContent = "purple";
+	somebutton.addEventListener("mouseover", changeBGGreen);
+	somebutton.addEventListener("click", changeTextColour);
+}
+buttonRef.addEventListener("click", addNewButtonandPara);
 
 // function alertUser() {
 //   alert("You Clicked!!!");
@@ -54,3 +64,5 @@ function changeTextColour(event) {
 	}
 	//event.target.textContent
 }
+
+buttonContainer.addEventListener("mouseover", changeTextColour);
